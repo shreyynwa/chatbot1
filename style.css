@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #e0e010;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width:100px;
+    height: 50px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.chat-container {
+    flex-grow: 1;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.chatbox {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.bot-message {
+    background-color: #181c17;
+    color: white;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #ddd;
+    align-self: flex-end;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+button.option-button {
+    background-color: #71C55D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button.option-button:hover {
+    background-color: #5da944;
+}
+
+footer {
+    background-color: #e0e010;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
